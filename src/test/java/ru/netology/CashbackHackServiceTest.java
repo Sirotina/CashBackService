@@ -20,6 +20,14 @@ public class CashbackHackServiceTest {
         int expected = 100;
         assertEquals(expected,actual);
     }
+    @org.junit.Test
+    public void RemainTestIf1000() {
+        CashbackHackService service = new CashbackHackService();
+        int amount = 1000;
+        int actual = service.remain(amount);
+        int expected = 1000;
+        assertEquals(expected,actual);
+    }
 
 
 }
