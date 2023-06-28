@@ -6,9 +6,9 @@ public class CashbackHackServiceTest {
     @org.junit.Test
     public void RemainTest() {
         CashbackHackService service = new CashbackHackService();
-        int amount = 2000;
+        int amount = 1000;
         int actual = service.remain(amount);
-        int expected = 200;
+        int expected = 0;
         assertEquals(expected,actual);
     }
 
